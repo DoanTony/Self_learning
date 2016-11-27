@@ -1,6 +1,7 @@
 import sys
 import datetime
 
+#Get current year
 date = datetime.datetime.now()
 year_now = date.year
 
