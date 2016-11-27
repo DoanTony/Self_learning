@@ -1,4 +1,4 @@
-#Odd and Even numbers
+#Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user.
 number = int(input("Enter a number :"))
 
 #Check if input is a divider of 4
