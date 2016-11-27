@@ -20,7 +20,7 @@ a = []
 b = []
 # ==================
 
-for index in range(0,30):
+for index in range(0,30): # Size of both arrays [30]
     random_number = random.randrange(1, 100)
     a.append(random_number)
     random_number = random.randrange(1,100)
