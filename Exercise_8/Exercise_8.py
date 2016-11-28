@@ -2,11 +2,14 @@
 
 def Player_Hand(Players):
     while True:
-        player_input = int(input(Players +  " hand : "))
-        if(player_input > 0 ) and (player_input <= 3):
-            break
-        else:
-            print("Please enter a valid choice")
+        try:
+            player_input = int(input(Players +  " hand : "))
+            if(player_input > 0 ) and (player_input <= 3):
+                break
+            else:
+                print("Please enter a valid choice")
+        except ValueError:
+            print("Please enter a valid input")
     return player_input
 
 #Main program
